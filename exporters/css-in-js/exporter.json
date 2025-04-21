@@ -1,11 +1,11 @@
 {
     "id": "supernovaio.exporter-css-in-js",
-    "name": "CSS in JS",
+    "name": "CSS in JS-test",
     "description": "Export your design tokens to CSS in JS variables and definitions.",
     "author": "Supernova.io",
     "organization": "Supernova.io",
     "homepage": "https://supernova.io",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "usesBrands": true,
     "usesThemes": true,
     "executable": "/dist/build.js",
