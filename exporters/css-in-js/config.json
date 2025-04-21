@@ -420,7 +420,7 @@
         "description": "A message explaining that the file was automatically generated will appear in all style files.",
         "category": "Other",
         "dependsOn": {
-            "showGeneratedFileDisclaimer": false
+            "showGeneratedFileDisclaimer": true
         }
     },
     {
