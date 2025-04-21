@@ -14,7 +14,7 @@ export class GeneralHelper {
    * @param content - The content to append after the disclaimer
    * @returns Formatted string with disclaimer comment and content
    */
-  tatic addDisclaimer(disclaimer: string, content: string): string {
+  static addDisclaimer(disclaimer: string, content: string): string {
     if (!disclaimer) {
       return content;
     }
