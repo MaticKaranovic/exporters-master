@@ -18,7 +18,7 @@ export class GeneralHelper {
     if (!disclaimer) {
       return content;
     }
-    const formattedDisclaimer = disclaimer.replace(/\n/g, '\n * ');
-    return `${formattedDisclaimer}\n\n${content}`;
+    const formattedDisclaimer = disclaimer.replace(/\n/g, ' * ');
+    return `${formattedDisclaimer} ${content}`;
   }
 } 
