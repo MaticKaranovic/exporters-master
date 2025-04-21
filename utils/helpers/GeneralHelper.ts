@@ -19,6 +19,6 @@ export class GeneralHelper {
     return content;
   }
 
-  return `/* ${disclaimer} */\n\n${content}`;
+  return `${disclaimer}\n\n${content}`;
 }
 } 
