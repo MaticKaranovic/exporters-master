@@ -415,7 +415,7 @@
     {
         "key": "disclaimer",
         "type": "string",
-        "default": "/* eslint-disable import/prefer-default-export, filenames/match-exported, @typescript-eslint/naming-convention */",
+        "default": "eslint-disable import/prefer-default-export, filenames/match-exported, @typescript-eslint/naming-convention",
         "title": "Disclaimer message",
         "description": "A message explaining that the file was automatically generated will appear in all style files.",
         "category": "Other",
