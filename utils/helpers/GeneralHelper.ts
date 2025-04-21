@@ -14,11 +14,11 @@ export class GeneralHelper {
    * @param content - The content to append after the disclaimer
    * @returns Formatted string with disclaimer comment and content
    */
-  static addDisclaimer(disclaimer: string, content: string): string {
-  if (!disclaimer) {
-    return content;
+  tatic addDisclaimer(disclaimer: string, content: string): string {
+    if (!disclaimer) {
+      return content;
+    }
+    const formattedDisclaimer = disclaimer.replace(/\n/g, '\n * ');
+    return `${formattedDisclaimer}\n\n${content}`;
   }
-
-  return `${disclaimer}\n\n${content}`;
-}
 } 
