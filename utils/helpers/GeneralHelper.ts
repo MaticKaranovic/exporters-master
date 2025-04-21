@@ -15,10 +15,10 @@ export class GeneralHelper {
    * @returns Formatted string with disclaimer comment and content
    */
   static addDisclaimer(disclaimer: string, content: string): string {
-    if (!disclaimer) {
-      return content;
-    }
-    const formattedDisclaimer = disclaimer.replace(/\n/g, '\n * ');
-    return `/** ${formattedDisclaimer} */\n\n${content}`;
+  if (!disclaimer) {
+    return content;
   }
+
+  return `/* ${disclaimer} */\n\n${content}`;
+}
 } 
