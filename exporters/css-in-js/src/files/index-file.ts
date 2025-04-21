@@ -1,4 +1,4 @@
-import { FileHelper, FileNameHelper, GeneralHelper, StringCase, ThemeHelper } from "../../../../../utils/helpers/GeneralHelper.ts"
+import { FileHelper, FileNameHelper, GeneralHelper, StringCase, ThemeHelper } from "../../../../../utils/helpers"
 import { OutputTextFile, Token, TokenType, TokenTheme } from "@supernovaio/sdk-exporters"
 import { exportConfiguration } from ".."
 import { DEFAULT_STYLE_FILE_NAMES } from "../constants/defaults"
